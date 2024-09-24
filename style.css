@@ -1,0 +1,108 @@
+body
+{
+	background-image:url("plane.jpg");
+	background-repeat:repeat-x;
+		background-attachment: fixed;
+		background-size: cover;
+ }
+ 	button#a:hover
+	{
+			background-color:red;
+
+	}
+
+	button#b:hover
+	{
+			background-color:cyan;
+
+	}
+button#a
+{
+
+	background-color:lightskyblue;
+    display: inline-block;
+    padding: 8px 40px;
+    border: 2px solid;
+    	text-align: center;
+    margin-top: 3px;
+    margin-left: 1px;
+	font-size: 26px;
+	width: 16%;
+	height: 50px;
+	cursor: pointer;
+}
+button#b
+{
+	
+	background-color:linen;
+	text-align: center;
+		width: 300px;
+	height: 50px;
+    display: inline-block;
+    border: 2px solid;
+	font-size: 20px;
+	cursor: pointer;
+	
+
+}
+a
+{
+	text-decoration: none;
+    font-size:25px;
+    font-style: solid;
+    color: red;
+
+}
+a:hover
+{
+	text-decoration: none;
+    font-size:28px;
+    font-style: solid;
+    color: blue;
+
+}
+
+ h1
+{
+	border-width: 5px;
+	border-color: gray;
+	color: black;
+	text-shadow: 5px 2px white;
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-style: initial;
+}
+pre
+{
+	font-size: 20px;
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	font-style: initial;
+}
+
+input[type="textbox"]
+{
+	background-image: url("login1.png");
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+input[type="password"]
+{
+	margin-top: 20px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+input[type="submit"]
+{
+	border-radius: 20px;
+	background-color: lightblue;
+	color: navy;
+	font-size: 16px;
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	font-style: initial;
+	width: 150px;
+	height: 30px;
+}
